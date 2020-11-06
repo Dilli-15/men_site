@@ -17,6 +17,7 @@ app.use(methodOverride('_method'));
 //-------------------------------------------------
 //Database connection
 mongoose.connect('mongodb://localhost/YelpDatabase', {
+    //change the dataname 
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
